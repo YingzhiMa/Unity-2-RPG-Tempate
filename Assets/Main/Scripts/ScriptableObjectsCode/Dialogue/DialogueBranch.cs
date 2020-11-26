@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Branch", menuName="CustomObject/Branch")]
-public class DialogueBranch : ScripatbleObject
+public class DialogueBranch : ScriptableObject
 {
     public string dialogueId ="";
-    public List<striing>DialogueLines;
+    public List<string> DialogueLines;
     public List<ResponseBranch> ResponseOption;
 }
 
-[System.Serializabble]
-pulic class ResponseBranch
+[System.Serializable]
+public class ResponseBranch
 {
     public string text;
-    publlic DialogueBranch nextbranch;
+    public DialogueBranch nextbranch;
 }
