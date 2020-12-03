@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a103e2ddb49ea4922a5fa8261731dda5, type: 3}
-  m_Name: BranchTest
+  m_Name: Funny Branch
   m_EditorClassIdentifier: 
-  dialogueId: 
+  dialogueId: Funny Branch
   DialogueLines:
-  - This is a test
-  - for dialogue
-  - Do you like?
+  - Hey there strenger!
+  - You're stupid!!!
+  - Are you eating dinner at restroom?
   ResponseOption:
   - text: Yes
-    nextBranch: {fileID: 11400000, guid: 4b58738c4d74b40979e4158f2005f768, type: 2}
+    nextBranch: {fileID: 11400000, guid: 8fb6c2c27203e43348f5acb72bd577ea, type: 2}
   - text: No
-    nextBranch: {fileID: 11400000, guid: be75c05c0148246f98b540bba1f2f0a7, type: 2}
-  - text: Maybe
-    nextBranch: {fileID: 11400000, guid: 45df367db6c2946d78c5ab038e28547c, type: 2}
+    nextBranch: {fileID: 11400000, guid: edb00b60ddfe241f3bc24ca6fcdaec20, type: 2}
+  - text: What! Do I look like a savage?
+    nextBranch: {fileID: 11400000, guid: 0467bee83cb474706a103f1d7bcfc2c6, type: 2}
